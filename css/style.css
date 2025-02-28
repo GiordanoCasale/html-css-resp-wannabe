@@ -168,6 +168,12 @@ img {
         padding-bottom: 3rem;
        }
 
+       @media (min-width: 768px) and (max-width: 1160px) {
+        .container{
+           width: 100%;
+        }
+    }
+
 
 
 
