@@ -134,3 +134,45 @@ img {
    }
 }
 
+@media screen and (max-width: 480px){
+    .why-us{
+        background-color: #222222;
+        margin: 0rem;
+        padding-top: 3rem;
+        padding-bottom: 3rem;
+    }
+
+    .steps .container{
+        background-color: #EEBBC3;
+    }
+
+    .container{
+        max-width: 480px;
+       }
+
+       .row{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+       }
+
+       .col{
+        width: 100% !important;
+       }
+
+       .steps{
+        margin: 0rem;
+       }
+
+       .lessons{
+        padding-bottom: 3rem;
+       }
+
+
+
+
+
+
+
+
+} 
